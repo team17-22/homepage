@@ -1,0 +1,453 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Play" rel="stylesheet">
+	<script type="text/javascript" src="script.js"></script>
+	<title>Team 17 - Tímový projekt</title>
+</head>
+<body onload="displayList('zapisnice', 'text-notes')">
+	<header>
+		<div class="wrapper">
+			<div class="header-logo">
+				<a href=""><img class="logo" src="images/logo-alt.png"></a>
+			</div>
+			<div class="header-nav">
+				<ul class="navigation">
+					<li><a href="#projekt">Projekt</a></li>
+					<li><a href="#tim">Tím</a></li>
+					<li><a href="#timeline">Časová os</a></li>
+					<li><a href="#dokumenty">Dokumenty</a></li>
+				</ul>
+			</div>
+		</div>
+	</header>
+	<div class="background-img">
+		<div class="intro">
+			<div class="intro-content">
+				<h1 class="intro-heading">EVP</h1>
+				<p class="intro-heading-full">Evidencia vedecko-výskumných projektov</p>
+				<p class="intro-team">Tím 17</p>
+			</div>
+		</div>
+	</div>
+	<div id="projekt" class="section">
+		<div class="section-heading">
+			<h1>Projekt</h1>
+		</div>
+		<div>
+			<div class="project-description">
+				<p>
+					Cieľom projektu je vytvorenie informačno-komunikačného systému, ktorý umožní evidenciu, monitorovanie a správu vedecko-výskumných projektov. Je uskutočňovaný v spolupráci s Centrom vedecko-výskumných informácií.
+					<br><br>
+					Daný portal obsahuje zoznam projektov, výskumníkov pracujúcich na daných projektov a organizácií ku ktorým patria výskumníci. Výskumníci vedia manažovať svoje projekty, zadávajúc projekty na schválenie, ich potenciálne výstupy, a priraďujúc výskumníkov na tieto projekty. 
+				</p>
+			</div>
+			<div class="project-cards">
+				<div class="project-card">
+					<div class="project-card-image">
+						<img width="100px" height="100px" src="https://www.worldsbestcatlitter.com/wp-content/uploads/2016/09/cat-affection-blog-image-6.jpg">
+					</div>
+					<div class="project-card-content">
+						<h3>Súlad s CERIFom</h3>
+						<small>
+							Zosúladenie s európskym štandardom vedecko-výskumnej domény (CERIF) umožňuje jednoduchú integráciu s inými službami
+						</small>
+					</div>
+				</div>
+				<div class="project-card">
+					<div class="project-card-image">
+						<img width="100px" height="100px" src="https://www.worldsbestcatlitter.com/wp-content/uploads/2016/09/cat-affection-blog-image-6.jpg">
+					</div>
+					<div class="project-card-content">
+						<h3>Cloudové riešenie</h3>
+						<small>
+							Webstránková implementácia je nasadená v Dockeri, čo slúži pre jednoduché nasadenie stránky
+						</small>
+					</div>
+				</div>
+				<div class="project-card">
+					<div class="project-card-image">
+						<img width="100px" height="100px" src="https://www.worldsbestcatlitter.com/wp-content/uploads/2016/09/cat-affection-blog-image-6.jpg">
+					</div>
+					<div class="project-card-content">
+						<h3>Dôraz na UX</h3>
+						<small>
+							Ohľad na používateľa pri robení stránky zabezpečuje jednoduchosť navigácie a estetický vzhľad
+						</small>
+					</div>
+				</div>	
+			</div>
+		</div>
+	</div>
+	<div id="tim" class="section">
+		<div class="section-heading">
+			<h1>Tím</h1>
+		</div>
+		<div class="container" style="margin-bottom: 100px;">
+			<div class="card card-vip">
+				<div class="card-image card-image-vip"></div>
+				<div class="card-content card-content-vip">
+					<div class="card-content-heading">
+						<h2>Juraj Vincúr</h2>
+						<small>Vedúci projektu</small>
+					</div>
+					<div class="card-content-list">
+						<ul>
+							<li>Komunikácia s product ownerom</li>
+							<li>Konzultant</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="container">
+			<div class="card">
+				<div class="card-image"></div>
+				<div class="card-content">
+					<div class="card-content-heading">
+						<h2>Adam Novák</h2>
+						<small>Team leader</small>
+					</div>
+					<div class="card-content-list">
+						<ul>
+							<li>Front-end</li>
+							<li>Dev-Ops</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<div class="card">
+				<div class="card-image"></div>
+				<div class="card-content">
+					<div class="card-content-heading">
+						<h2>Sofia Shatokhina</h2>
+						<small>Scrum master</small>
+					</div>
+					<div class="card-content-list">
+						<ul>
+							<li>Front-end</li>
+							<li>Dev-Ops</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<div class="card">
+				<div class="card-image"></div>
+				<div class="card-content">
+					<div class="card-content-heading">
+						<h2>Alica Urbanová</h2>
+						<small>Manažérka dokumentácie</small>
+					</div>
+					<div class="card-content-list">
+						<ul>
+							<li>Back-end</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<div class="card">
+				<div class="card-image"></div>
+				<div class="card-content">
+					<div class="card-content-heading">
+						<h2>Filip Petrán</h2>
+						<small>Manažér evidencie úloh</small>
+					</div>
+					<div class="card-content-list">
+						<ul>
+							<li>Databáza</li>
+							<li>DevOps</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<div class="card">
+				<div class="card-image"></div>
+				<div class="card-content">
+					<div class="card-content-heading">
+						<h2>Jakub Povinec</h2>
+						<small>Manažér testovania</small>
+					</div>
+					<div class="card-content-list">
+						<ul>
+							<li>DevOps</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<div class="card">
+				<div class="card-image"></div>
+				<div class="card-content">
+					<div class="card-content-heading">
+						<h2>Jakub Hromada</h2>
+						<small>Manažér kvality kódu</small>
+					</div>
+					<div class="card-content-list">
+						<ul>
+							<li>DevOps</li>
+							<li>Back-end</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div id="timeline" class="section">
+		<div class="section-heading">
+			<h1>Časová os</h1>
+		</div>
+		<div class="container timeline-container">
+			<!--Nepárny týždeň-->
+			<div class="timeline-week">
+				<div class="timeline-week-panel">
+					<div class="timeline-week-panel-text">
+						<div class="timeline-week-panel-inner">
+							<div class="timeline-week-panel-heading">
+								<h2>Šprint prvý</h2>
+								<small>11.10.2022 - 25.10.2022</small>
+							</div>
+							<div>
+								<p>
+									V prvom šprinte sme začali analýzu požiadavok očakávaného produktu. Naštudovali sme dokument špecifikácie, rozobrali sme CERIF model a oboznámili sme sa s diagramami z Enterprise Architectu.
+								</p>
+							</div>
+						</div>
+					</div>					
+				</div>
+				<div class="timeline-week-panel timeline-week-panel-right">
+					<div class="timeline-week-panel-image-container">
+						<img src="images/tyzden-1.png" class="timeline-week-panel-image timeline-week-panel-image-right">
+						<div class="timeline-week-panel-image-description">
+							<h2>
+								'Kabuki'
+							</h2>
+							<small>
+								The hummble beginnings
+							</small>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!--Párny týždeň-->
+			<div class="timeline-week">
+				<div class="timeline-week-panel timeline-week-panel-left">
+					<div class="timeline-week-panel-image-container timeline-flex-right">
+						<div class="timeline-week-panel-image-description">
+							<h2>
+								'Watson'
+							</h2>
+							<small>
+								Gaining speed
+							</small>
+						</div>
+						<img src="images/tyzden-2.png" class="timeline-week-panel-image timeline-week-panel-image-left">
+					</div>
+				</div>
+				<div class="timeline-week-panel">
+					<div class="timeline-week-panel-text">
+						<div class="timeline-week-panel-inner">
+							<div class="timeline-week-panel-heading">
+								<div>
+									<h2>Šprint druhý</h2>
+								</div>
+								<div>
+									<small>26.10.2022 - 08.11.2022</small>
+								</div>
+							</div>
+							<div>
+								<p>
+									Začali sme analýzu technológií pomocou ktorých budeme implementovať webstránku a ich kompatibilitu. Podľa uskutočnenej analýzy sme prešli k hierarchii obrazoviek a prípadom použitia aplikácie.
+								</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!--Nepárny týždeň-->
+			<div class="timeline-week">
+				<div class="timeline-week-panel">
+					<div class="timeline-week-panel-text">
+						<div class="timeline-week-panel-inner">
+							<div class="timeline-week-panel-heading">
+								<h2>Šprint tretí</h2>
+								<small>09.11.2022 - 22.11.2022</small>
+							</div>
+							<div>
+								<p>
+									Hierarchiu obrazoviek sme pretvorili do mid-fidelity návrhov z hlavných prípadov použitia aplikácie. Taktiež sme vytvorili základnú aplikáciu, ktorú sme dockerizovali.
+								</p>
+							</div>
+						</div>
+					</div>					
+				</div>
+				<div class="timeline-week-panel timeline-week-panel-right">
+					<div class="timeline-week-panel-image-container">
+						<img src="images/tyzden-3.png" class="timeline-week-panel-image timeline-week-panel-image-right">
+						<div class="timeline-week-panel-image-description">
+							<h2>
+								'Arroyo'
+							</h2>
+							<small>
+								Smooth sailing
+							</small>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!--Párny týždeň-->
+			<div class="timeline-week">
+				<div class="timeline-week-panel timeline-week-panel-left">
+					<div class="timeline-week-panel-image-container timeline-flex-right">
+						<div class="timeline-week-panel-image-description">
+							<h2>
+								'Watson'
+							</h2>
+							<small>
+								Negotiations
+							</small>
+						</div>
+						<img src="images/tyzden-2.png" class="timeline-week-panel-image timeline-week-panel-image-left">
+					</div>
+				</div>
+				<div class="timeline-week-panel">
+					<div class="timeline-week-panel-text">
+						<div class="timeline-week-panel-inner">
+							<div class="timeline-week-panel-heading">
+								<div>
+									<h2>Šprint štvrtý</h2>
+								</div>
+								<div>
+									<small>23.11.2022 - 06.12.2022</small>
+								</div>
+							</div>
+							<div>
+								<p>
+									Stretli sme sa s product ownerom a zjednotili sme si predstavu o aplikácii s ním a spolupracujúcim tímom, ako aj spoločnú autentifikáciu. Začali sme vytvárať front-end aplikácie.
+								</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!--Párny týždeň-->
+			<div class="timeline-week">
+				<div class="timeline-week-panel">
+					<div class="timeline-week-panel-text">
+						<div class="timeline-week-panel-inner">
+							<div class="timeline-week-panel-heading">
+								<h2>Šprint piaty</h2>
+								<small>07.12.2022 - 13.12.2022</small>
+							</div>
+							<div>
+								<p>
+									Zjednotili sme front-end, back-end a databázu pre fungujúce vytvorenie projektu.
+								</p>
+							</div>
+						</div>
+					</div>					
+				</div>
+				<div class="timeline-week-panel timeline-week-panel-right">
+					<div class="timeline-week-panel-image-container">
+						<img src="images/tyzden-1.png" class="timeline-week-panel-image timeline-week-panel-image-right">
+						<div class="timeline-week-panel-image-description">
+							<h2>
+								'Kabuki'
+							</h2>
+							<small>
+								Coming together
+							</small>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div id="dokumenty" class="section">
+		<div class="section-heading">
+			<h1>Dokumenty</h1>
+		</div>
+		<div class="documents-buttons">
+			<ul>
+				<li>
+					<svg viewbox="-2 -2 134 134" width="134px">
+						<defs>
+						    <linearGradient id="grad1" x1="50%" y1="0%" x2="50%" y2="100%">
+						      	<stop offset="0%" style="stop-color:rgba(87,234,237,0.15);stop-opacity:1" />
+						    	<stop offset="100%" style="stop-color:rgba(157,43,245,0.15);stop-opacity:1" />
+							</linearGradient>
+						</defs>
+						<path fill="url(#grad1)" d="M 0 0 L 0 100 L 30 130 L 130 130 L 130 0 Z" />
+						<text id="text-notes" class="clickable-svg-text" x="65" y="65" text-anchor="middle" alignment-baseline="middle">
+							Zápisnice
+						</text>
+						<path fill="transparent" class="clickable-svg" onclick="displayList('zapisnice', 'text-notes')" d="M 0 0 L 0 100 L 30 130 L 130 130 L 130 0 Z" />
+					</svg>
+				</li>
+				<li style="margin-left: -4px;">
+					<svg viewbox="-2 -2 134 134" width="134px">
+						<defs>
+						    <linearGradient id="grad1" x1="50%" y1="0%" x2="50%" y2="100%">
+						      	<stop offset="0%" style="stop-color:rgba(87,234,237,0.15);stop-opacity:1" />
+						    	<stop offset="100%" style="stop-color:rgba(157,43,245,0.15);stop-opacity:1" />
+							</linearGradient>
+						</defs>
+						<path fill="url(#grad1)" d="M 0 0 L 0 130 L 0 130 L 130 130 L 130 0 Z" />
+						<text id="text-sprints" class="clickable-svg-text" x="65" y="65" text-anchor="middle" alignment-baseline="middle">
+							Šprinty
+						</text>
+						<path fill="transparent" class="clickable-svg" onclick="displayList('sprinty', 'text-sprints')" d="M 0 0 L 0 130 L 0 130 L 130 130 L 130 0 Z" />
+					</svg>
+				</li>
+				<li style="margin-left: -4px;">
+					<svg viewbox="-2 -2 134 134" width="134px">
+						<defs>
+						    <linearGradient id="grad1" x1="50%" y1="0%" x2="50%" y2="100%">
+						      	<stop offset="0%" style="stop-color:rgba(87,234,237,0.15);stop-opacity:1" />
+						    	<stop offset="100%" style="stop-color:rgba(157,43,245,0.15);stop-opacity:1" />
+							</linearGradient>
+						</defs>
+						<path fill="url(#grad1)" d="M 0 0 L 0 130 L 0 130 L 130 130 L 130 0 Z" />
+						<text id="text-documents" class="clickable-svg-text" x="65" y="65" text-anchor="middle" alignment-baseline="middle">
+							Dokumenty
+						</text>
+						<path fill="transparent" class="clickable-svg" onclick="displayList('dokumenty', 'text-documents')" d="M 0 0 L 0 130 L 0 130 L 130 130 L 130 0 Z">
+					</svg>
+				</li>
+				<li style="margin-left: -4px;">
+					<svg viewbox="-2 -2 134 134" width="134px">
+						<defs>
+						    <linearGradient id="grad1" x1="50%" y1="0%" x2="50%" y2="100%">
+						      	<stop offset="0%" style="stop-color:rgba(87,234,237,0.15);stop-opacity:1" />
+						    	<stop offset="100%" style="stop-color:rgba(157,43,245,0.15);stop-opacity:1" />
+							</linearGradient>
+						</defs>
+						<path fill="url(#grad1)" d="M 0 0 L 0 130 L 130 130 L 130 30 L 100 0 Z" />
+						<text id="text-other" class="clickable-svg-text" x="65" y="65" text-anchor="middle" alignment-baseline="middle">
+							Ostatné
+						</text>
+						<path fill="transparent" class="clickable-svg" onclick="displayList('ostatne', 'text-other')" d="M 0 0 L 0 130 L 130 130 L 130 30 L 100 0 Z" />
+					</svg>
+				</li>
+			</ul>
+		</div>
+		<div class="container">
+			<div id="documents-scroll" class="documents-scroll">
+				<div class="documents-scroll-frame"></div>
+				<ul id="documents-list" class="documents-list"></ul>
+			</div>
+		</div>
+	</div>
+	<footer>
+		<div class="footer-content">
+			<ul>
+				<li>2022 EVP</li>
+				<li><a href="mailto:team17timak@gmail.com">team17timak@gmail.com</a></li>
+			</ul>
+		</div>
+	</footer>
+</body>
+</html>
