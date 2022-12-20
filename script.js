@@ -111,7 +111,16 @@ var sprints = [
 ];
 
 var documents = [
-
+  {
+    title:  'Dokumentácia projektu',
+    date:   '',
+    path:   './dokumenty/dokumentacie/TP1ZS_dokumentacia_projektu.pdf'
+  },
+  {
+    title:  'Dokumentácia riadenia',
+    date:   '',
+    path:   './dokumenty/dokumentacie/TP1ZS_dokumentacia_riadenia.pdf'
+  }
 ];
 
 var other = [
