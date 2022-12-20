@@ -124,6 +124,16 @@ var other = [
     title:  'Príloha D - Úvodné pokyny',
     date:   '',
     path:   './dokumenty/ostatne/Príloha D - Úvodné pokyny.pdf'
+  },
+  {
+    title:  'Motivačný dokument',
+    date:   '',
+    path:   './dokumenty/ostatne/tim17_tema11-15-13_2022.pdf'
+  },
+  {
+    title:  'Prihláška do TP Cup 2023',
+    date:   '',
+    path:   './dokumenty/ostatne/tpcup_prihlaska.pdf'
   }
 ];
 
