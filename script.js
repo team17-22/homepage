@@ -74,6 +74,11 @@ var notes = [
     title:  'Zápisnica č. 8',
     date:   '06.12.2022',
     path:   './dokumenty/Zapisnica_22-12-06.pdf'
+  },
+  {
+    title:  'Zápisnica č. 9',
+    date:   '13.12.2022',
+    path:   './dokumenty/Zapisnica_22-12-13.pdf'
   }
 ];
 
