@@ -38,55 +38,94 @@ var notes = [
   {
     title:  'Zápisnica č. 1',
     date:   '11.10.2022',
-    path:   './dokumenty/Zapisnica_22-10-11.pdf'
+    path:   './dokumenty/zapisnice/Zapisnica_22-10-11.pdf'
   },
   {
     title:  'Zápisnica č. 2',
     date:   '18.10.2022',
-    path:   './dokumenty/Zapisnica_22-10-18.pdf'
+    path:   './dokumenty/zapisnice/Zapisnica_22-10-18.pdf'
   },
   {
     title:  'Zápisnica č. 3',
     date:   '25.10.2022',
-    path:   './dokumenty/Zapisnica_22-10-25.pdf'
+    path:   './dokumenty/zapisnice/Zapisnica_22-10-25.pdf'
   },
   {
     title:  'Zápisnica č. 4',
     date:   '08.11.2022',
-    path:   './dokumenty/Zapisnica_22-11-08.pdf'
+    path:   './dokumenty/zapisnice/Zapisnica_22-11-08.pdf'
   },
   {
     title:  'Zápisnica č. 5',
     date:   '15.11.2022',
-    path:   './dokumenty/Zapisnica_22-11-15.pdf'
+    path:   './dokumenty/zapisnice/Zapisnica_22-11-15.pdf'
   },
   {
     title:  'Zápisnica č. 6',
     date:   '22.11.2022',
-    path:   './dokumenty/Zapisnica_22-11-22.pdf'
+    path:   './dokumenty/zapisnice/Zapisnica_22-11-22.pdf'
   },
   {
     title:  'Zápisnica č. 7',
     date:   '29.11.2022',
-    path:   './dokumenty/Zapisnica_22-11-29.pdf'
+    path:   './dokumenty/zapisnice/Zapisnica_22-11-29.pdf'
   },
   {
     title:  'Zápisnica č. 8',
     date:   '06.12.2022',
-    path:   './dokumenty/Zapisnica_22-12-06.pdf'
+    path:   './dokumenty/zapisnice/Zapisnica_22-12-06.pdf'
   },
   {
     title:  'Zápisnica č. 9',
     date:   '13.12.2022',
-    path:   './dokumenty/Zapisnica_22-12-13.pdf'
+    path:   './dokumenty/zapisnice/Zapisnica_22-12-13.pdf'
   }
 ];
 
-var sprints = [];
+var sprints = [
+  {
+    title:  'Retrospektíva č. 1',
+    date:   '26.10.2022',
+    path:   './dokumenty/sprinty/Retrospektiva_22-10-25.pdf'
+  },
+  {
+    title:  'Retrospektíva č. 2',
+    date:   '08.09.2022',
+    path:   './dokumenty/sprinty/Retrospektiva_22-11-08.pdf'
+  },
+  {
+    title:  'Retrospektíva č. 3',
+    date:   '22.09.2022',
+    path:   './dokumenty/sprinty/Retrospektiva_22-11-22.pdf' 
+  },
+  {
+    title:  'Retrospektíva č. 4',
+    date:   '06.10.2022',
+    path:   './dokumenty/sprinty/Retrospektiva_22-12-06.pdf' 
+  },
+  {
+    title:  'Retrospektíva č. 5',
+    date:   '13.12.2022',
+    path:   './dokumenty/sprinty/Retrospektiva_22-12-13.pdf' 
+  }
+];
 
-var documents = [];
+var documents = [
 
-var other = [];
+];
+
+var other = [
+  {
+    title:  'Príloha C - Otázky na externistov',
+    date:   '',
+    path:   './dokumenty/ostatne/Príloha C - Otázky na externistov.pdf'
+  },
+  {
+    title:  'Príloha D - Úvodné pokyny',
+    date:   '',
+    path:   './dokumenty/ostatne/Príloha D - Úvodné pokyny.pdf'
+  }
+];
 
 var dict = {
   'zapisnice' : notes,
