@@ -79,6 +79,61 @@ var notes = [
     title:  'Zápisnica č. 9',
     date:   '13.12.2022',
     path:   './dokumenty/zapisnice/Zapisnica_22-12-13.pdf'
+  },
+  {
+    title:  'Zápisnica č. 10',
+    date:   '16.02.2023',
+    path:   './dokumenty/zapisnice/Zapisnica_23-02-16.pdf'
+  },
+  {
+    title:  'Zápisnica č. 11',
+    date:   '23.02.2023',
+    path:   './dokumenty/zapisnice/Zapisnica_23-02-23.pdf'
+  },
+  {
+    title:  'Zápisnica č. 12',
+    date:   '02.03.2023',
+    path:   './dokumenty/zapisnice/Zapisnica_23-03-02.pdf'
+  },
+  {
+    title:  'Zápisnica č. 13',
+    date:   '09.03.2023',
+    path:   './dokumenty/zapisnice/Zapisnica_23-03-09.pdf'
+  },
+  {
+    title:  'Zápisnica č. 14',
+    date:   '16.03.2023',
+    path:   './dokumenty/zapisnice/Zapisnica_23-03-16.pdf'
+  },
+  {
+    title:  'Zápisnica č. 15',
+    date:   '23.03.2023',
+    path:   './dokumenty/zapisnice/Zapisnica_23-03-23.pdf'
+  },
+  {
+    title:  'Zápisnica č. 16',
+    date:   '30.03.2023',
+    path:   './dokumenty/zapisnice/Zapisnica_23-03-30.pdf'
+  },
+  {
+    title:  'Zápisnica č. 17',
+    date:   '06.04.2023',
+    path:   './dokumenty/zapisnice/Zapisnica_23-04-06.pdf'
+  },
+  {
+    title:  'Zápisnica č. 18',
+    date:   '13.04.2023',
+    path:   './dokumenty/zapisnice/Zapisnica_23-04-13.pdf'
+  },
+  {
+    title:  'Zápisnica č. 19',
+    date:   '20.04.2023',
+    path:   './dokumenty/zapisnice/Zapisnica_23-04-20.pdf'
+  },
+  {
+    title:  'Zápisnica č. 20',
+    date:   '04.05.2023',
+    path:   './dokumenty/zapisnice/Zapisnica_23-05-04.pdf'
   }
 ];
 
@@ -107,6 +162,16 @@ var sprints = [
     title:  'Retrospektíva č. 5',
     date:   '13.12.2022',
     path:   './dokumenty/sprinty/Retrospektiva_22-12-13.pdf' 
+  },
+  {
+    title:  'Retrospektíva č. 6',
+    date:   '13.12.2022',
+    path:   './dokumenty/sprinty/Retrospektiva_23-03-02.pdf' 
+  },
+  {
+    title:  'Retrospektíva č. 7',
+    date:   '13.12.2022',
+    path:   './dokumenty/sprinty/Retrospektiva_23-03-16.pdf'
   }
 ];
 
@@ -119,7 +184,7 @@ var documents = [
   {
     title:  'Dokumentácia riadenia',
     date:   '',
-    path:   './dokumenty/dokumentacie/TP1ZS_dokumentacia_riadenia.pdf'
+    path:   './dokumenty/dokumentacie/dokumentacia_riadenia.pdf'
   }
 ];
 
@@ -143,6 +208,11 @@ var other = [
     title:  'Prihláška do TP Cup 2023',
     date:   '',
     path:   './dokumenty/ostatne/tpcup_prihlaska.pdf'
+  },
+  {
+    title:  'Stav implementácie',
+    date:   '',
+    path:   './dokumenty/ostatne/stav_implementacie.pdf'
   }
 ];
 
