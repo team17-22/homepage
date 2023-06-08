@@ -179,7 +179,7 @@ var documents = [
   {
     title:  'Dokumentácia projektu',
     date:   '',
-    path:   './dokumenty/dokumentacie/TP1ZS_dokumentacia_projektu.pdf'
+    path:   './dokumenty/dokumentacie/dokumentacia_projektu.pdf'
   },
   {
     title:  'Dokumentácia riadenia',
@@ -213,6 +213,11 @@ var other = [
     title:  'Stav implementácie',
     date:   '',
     path:   './dokumenty/ostatne/stav_implementacie.pdf'
+  },
+  {
+    title:  'Entitno - Relačný model',
+    date:   '',
+    path:   './dokumenty/ostatne/entito-relacny_model.pdf'
   }
 ];
 
